@@ -1,0 +1,28 @@
+/*Aligning elements using justify content to center (margins equal on left and right within a flex-container)
+  Other options include flex-start, flex-end, space-between, space-around
+  It aligns along the main axis (for rows it is horizontal line, for columns it is vertical line)*/
+
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 25%;
+    height: 100%;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 25%;
+    height: 100%;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
