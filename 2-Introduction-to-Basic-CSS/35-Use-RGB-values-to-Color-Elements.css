@@ -1,0 +1,7 @@
+/*Specifying colors using RGB values in the [0, 255] range*/
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>
