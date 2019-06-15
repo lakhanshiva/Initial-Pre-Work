@@ -1,0 +1,7 @@
+/*Changing background-color for HTML element body*/
+
+<style>
+    body {
+        background-color: black;
+    }
+</style>
